@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	  <div class="py-2 bg-primary">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+	    		<div class="col-lg-12 d-block">
+		    		<div class="row d-flex">
+			    		<div class="col-md-5 pr-4 d-flex topper align-items-center">
+			    			<div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+						    <span class="text">Online</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+						    <span class="text">pythoncourse@yahoo.com</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <span class="text">+389 78 459 762</span>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center">
+	    	<a class="navbar-brand" href="index.html">Python</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Почетна</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">За нас</a></li>
+	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Професори</a></li>
+	        	<li class="nav-item"><a href="courses.html" class="nav-link">Предавања</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Контакт</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
+   <br><br><h1 class="mb-2 bread" style="color:black; text-align: center; font-family: serif; font-size: 70px; ">Променливи во Python и Влезно/Излезни функции</h1>
+</section>
+
+<p style="margin-left: 50px; font-size: 20px;">Откако инсталираме соодветна развојна околина за Python, веќе ќе научиме што се променливи како и каде се користат како и за влезно/излезните функции во Python.Пред да почнеме со пишување код да се запознаеме со неколку нови поими кои понатаму ќе ги употребуваме:</p>
+
+<p style="margin-left: 50px; font-size: 20px; background-color:#ffcc99;">
+1. <b>Варијабли/Променливи</b> – Променливи или варијабли, се посебни локации во меморијата на компјутерот кои ги користиме за да чуваме вредност.<br>
+Постојат правила при пишување на имиња на променливи во Python:<br>
+- Името на променливата мора да започне со буква или знак на долна црта.<br>
+- Името на променливата не може да започне со број.<br>
+- Името на променливата може да содржи само алфа-нумерички знаци и долни црти (Az, 0-9 и _ ).<br>
+- Имињата на променливите се чувствителни на големи букви (age, Age и AGE се три различни променливи).<br>
+- Името на променливата не може да биде ниту еден од клучните зборови на Python.</p>
+<style>
+	table {
+  border-collapse: collapse;
+  width: 30%;
+  margin-left: 10%;
+}
+
+th, td {
+  padding: 8px;
+  margin-left: 50px;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+}
+
+tr:hover {background-color: #D6EEEE;}
+}
+</style>
+<table>
+	<th style="background-color:#ffefd5;">Правилно се именуваат променливи:</th>
+	<th style="background-color:#ffefd5;">Неправилно се именуваат променливи:</th>
+	<tr>
+		<td>myname = “Ivana”</td>
+		<td>1myname = “Ivana”</td>
+	</tr>
+	<tr>
+		<td>my_name = “Ivana’</td>
+		<td>my-name = “Ivana”</td>
+	</tr>
+		<tr>
+			<td>_my_name = “Ivana”</td>
+			<td>my name = “Ivana”</td>
+		</tr>
+		<tr>
+			<td>myName = “Ivana”</td>
+		</tr>
+		<tr>
+			<td>MYNAME = “Ivana”</td>
+		</tr>
+		<tr>
+			<td>myname9 = “Ivana”</td>
+		</tr>
+	
+</table>
+<p style="margin-left: 50px; font-size: 20px; background-color: #d0f0c0;">2.<b> Податочни типови </b> – Секоја променлива има свој податочен тип. Таа вредност може да биде цел број
+(int), децимален број (float), текст (string), буловa вредност (bool), листа (list) и друг
+тип на податок. Променливите во Python не мора да се декларираат сo точно
+одреден тип. Во моментот кога доделуваме вредност на променливата, Python
+автоматски го одредува типот на податокот кој го прима.
+<p style="margin-left: 50px; font-size: 20px; background-color: #fcffa4;">3. <b> Коментари </b> –
+Коментарите се делови од кодот кои не се извршуваат и служат за објаснување на
+функционалноста на кодот. Тие се означуваат со знакот ( # ) - тараба/хештаг и се
+игнорирани при извршување на програмата. Со ( # ) започува коментарот и го
+игнорира остатокот од редот/линијата. Доколку сакаме да додадеме коментар кој
+опфаќа повеќе од една линија код тогаш користиме ( """ ) – тројни наводници и
+коментарот го пишувате помеѓу парот од тројни наводници.<br>
+Пример: Како се користат коментари
+<br>
+<p style="margin-left: 100px; font-size: 20px;">X = 4 # x е од тип int (цел број)<br>
+y = 3.14 # y е од тип float (децимален број)<br>
+name = "Маја"; # name е од тип string (текст)<br>
+isTrue = true “”” isTrue е од типот bool (булова вредност) “””<br>
+List = [0,1,2,3] # List е од типот list (листа)</p></p>
+<p style="margin-left: 50px; font-size: 20px; background-color: skyblue;"> 4. <b>Casting </b> –
+Casting во програмирањето се однесува на промена на типот од еден во друг
+податочен тип. Треба да се внимава при користење на casting бидејќи може да
+дојде до губење на информациите или да дојде до неправилни резултати. На
+пример: кога претвораме децимален број во цел број го губиме децималниот дел.<br>
+Еве неколку примери за casting:<br>
+<p style="margin-left: 100px; font-size: 20px;">x = int(2.6) “”” x ќе биде 2 – доаѓа до губење на децималниот дел 6 “””<br>
+y = float(3) # y ќе биде 3.0<br>
+z = str(8) # z ќе биде '8;<br>
+is_true = bool(0) # is_true ќе биде false<br>
+is_true = bool(1) # is_true ќе биде true</p>
+</p>
+<p style="margin-left: 50px; font-size: 20px; background-color: pink;"> 5. <b>Функции </b> –
+
+Влезно/Излезни функции се функции кои ја обезбедуваат комуникацијата
+помеќу програмата и корисникот или други делови од програмата. Овие
+функции овозможуваат внесување на податоци (влез) во програмата и
+печатење на информации од програмата (излез). Такви влезно/излезни
+функции се: input() и print().
+
+За прикажување на податоци или вредности на стандарден влез (конзолата/терминалот) односно
+на екранот ја користиме функцијата print(). Може да прими една или повеќе вредности кои
+автоматски ги конвертира (претвора) во текст.<br>
+Пример1: Што ќе се испечати на екран?<br>
+<p style="margin-left: 100px; font-size: 20px;">x = 4 # x е од тип int<br>
+x = “Bambi” # x е од тип str<br>
+print(x) # за x ја печатиме последната вредност која му е доделена</p></p>
+
+<p><a href="Operatori.html" class="btn btn-secondary px-4 py-3 mt-3">=> Оператори за доделување</a></p>   
+</p></body></html>
